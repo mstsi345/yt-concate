@@ -3,7 +3,7 @@ from yt_concate.model.found import Found
 
 class Search(Step):
     def process(self, data, inputs, utils):
-        search_word = input['search_word']
+        search_word = inputs['search_word']
 
         found = []
         for yt in data:
