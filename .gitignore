@@ -1,4 +1,5 @@
 downloads/
+outputs/
 
 led / optimized / DLL files
 __pycache__/
